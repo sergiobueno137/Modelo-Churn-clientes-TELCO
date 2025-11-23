@@ -42,6 +42,8 @@ cd Modelo-Churn-clientes-TELCO/
 ```
 cd src
 
+python make_dataset.py
+
 python train.py
 
 python evaluate.py
