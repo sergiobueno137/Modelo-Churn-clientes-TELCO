@@ -23,7 +23,7 @@ git config --list
 ```
 
 ### Paso 3: Clonar el Proyecto desde su propio Github
-
+colocar el nomnre del "USUARIO"
 ```
 git clone https://github.com/<USER>/Modelo-Churn-clientes-TELCO.git
 ```
