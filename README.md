@@ -8,10 +8,11 @@ git config --global user.email <CORREO>
 
 Paso 2: Clonar el Proyecto desde su propio Github
 git clone https://github.com/<USER>/Modelo-Churn-clientes-TELCO
-Paso 5: Instalar los pre-requisitos
+
+Paso 3: Instalar los pre-requisitos
 cd Modelo-Churn-clientes-TELCO/
 
-Paso 3: Ejecutar las pruebas en el entorno
+Paso 4: Ejecutar las pruebas en el entorno
 cd src
 
 # python make_dataset.py // omitimos este paso
@@ -23,7 +24,7 @@ python evaluate.py
 python predict.py
 
 cd ..
-Paso 4: Guardar los cambios en el Repo
+Paso 5: Guardar los cambios en el Repo
 git add .
 
 git commit -m "Pruebas Finalizadas"
