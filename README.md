@@ -7,9 +7,11 @@ Abra una Terminal en JupyterLab e ingrese los siguientes comandos
 
 ```
 git config --global user.name "<USER>"
-git config --global user.email <CORREO>
 ```
 
+```
+git config --global user.email <CORREO>
+```
 
 ### Paso 2: Clonar el Proyecto desde su propio Github
 
