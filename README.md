@@ -18,6 +18,10 @@ git config --global user.name "<USER>"
 git config --global user.email <CORREO>
 ```
 
+```
+git config --list
+```
+
 ### Paso 3: Clonar el Proyecto desde su propio Github
 
 ```
