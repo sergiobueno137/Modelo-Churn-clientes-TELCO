@@ -1,7 +1,12 @@
 
 # Ejecución de Tests Funcionales del Modelo churn clientes TELCO
 
-### Paso 1: Configurar git
+### Paso 1: Fork del Repositorio Original
+
+En el navegador, inicie sesión en Github. Luego, vaya al enlace del proyecto original (https://github.com/sergiobueno137/Modelo-Churn-clientes-TELCO) y dé click al botón "Fork". Esto copiará todo el proyecto en su usuario de Github.
+
+
+### Paso 2: Configurar git
 
 Abra una Terminal en JupyterLab e ingrese los siguientes comandos
 
@@ -13,14 +18,14 @@ git config --global user.name "<USER>"
 git config --global user.email <CORREO>
 ```
 
-### Paso 2: Clonar el Proyecto desde su propio Github
+### Paso 3: Clonar el Proyecto desde su propio Github
 
 ```
 git clone https://github.com/<USER>/Modelo-Churn-clientes-TELCO.git
 ```
 
 
-### Paso 3: Instalar los pre-requisitos
+### Paso 4: Instalar los pre-requisitos
 
 ```
 cd Modelo-Churn-clientes-TELCO/
@@ -28,7 +33,7 @@ cd Modelo-Churn-clientes-TELCO/
 ```
 
 
-### Paso 4: Ejecutar las pruebas en el entorno
+### Paso 5: Ejecutar las pruebas en el entorno
 
 ```
 cd src
@@ -43,7 +48,7 @@ cd ..
 ```
 
 
-### Paso 5: Guardar los cambios en el Repo
+### Paso 6: Guardar los cambios en el Repo
 
 ```
 git add .
