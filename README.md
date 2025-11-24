@@ -8,7 +8,7 @@ En el navegador, inicie sesión en Github. Luego, vaya al enlace del proyecto or
 
 ### Paso 2: Configurar git
 
-Abra una Terminal en JupyterLab e ingrese los siguientes comandos
+Abra una Terminal en JupyterLab desde Anaconda promt e ingrese los siguientes comandos
 
 ```
 git config --global user.name "<USER>"
